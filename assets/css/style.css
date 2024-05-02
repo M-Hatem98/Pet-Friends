@@ -1355,7 +1355,7 @@ hr {
   width: 150px;
   height: auto;
   position: absolute;
-  top: -85px;
+  top: -45px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -1605,7 +1605,7 @@ hr {
 
 @media (max-width : 797px) {
   .get-in-touch .phone a {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .get-in-touch .social .content {
@@ -1635,18 +1635,25 @@ hr {
   background-color: #fac79f;
 }
 
-.get-in-touch .slider-container {
-  width: 98%;
-  margin: 0 auto;
+.get-in-touch .splide3 {
+  width: 100%;
 }
-
+ 
 .get-in-touch .splide__slide {
   display: flex;
   justify-content: space-between;
-  margin: 0 20px;
+  margin: 10px;
+}
+
+@media (max-width : 797px) {
+  .get-in-touch .splide__slide {
+    margin: 0px;
+  }
 }
 
 .get-in-touch .splide__slide img {
+  min-width: 100%;
+  max-width: 100%;
   width: 100%;
   height: auto;
 }
@@ -1733,7 +1740,7 @@ hr {
 .reviews .splide4 .wrapper {
   width: 100%;
   padding: 10px;
-  background-color: #FAF1E2;
+  background-color: #faf1e2ae;
   display: block;
   border-radius: 6px;
   -webkit-border-radius: 6px;
