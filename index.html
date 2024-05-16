@@ -115,12 +115,12 @@
             >
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="#"
+                    href="services.html"
                     id="navbarDropdownMenuLink"
                     data-toggle="dropdown"
                     aria-haspopup="true"
@@ -730,7 +730,14 @@
           </div>
         </section>
       <!-- End FAQs -->
-      
+      <!-- Start Location -->
+      <section class="location my-5">
+        <div class="container">
+          <iframe src="https://www.google.com/maps/d/u/4/embed?mid=12RJeNkaPHkmvHj9IMfXTgd8XTr2-JOs&ehbc=2E312F" width="100%" height="550"></iframe>
+        </div>
+      </section>
+      <!-- End Location -->
+
     </main>
     <footer>
       <!-- Footer Start-->
@@ -758,14 +765,12 @@
                     </div>
                   </div>
                   <!-- social -->
-                  <!-- <div class="footer-social">
-                    <a href="https://www.facebook.com/sai4ull"
-                      ><i class="fab fa-facebook-square"></i
-                    ></a>
+                  <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
                     <a href="#"><i class="fab fa-twitter-square"></i></a>
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-pinterest-square"></i></a>
-                  </div> -->
+                  </div>
                 </div>
               </div>
             </div>
@@ -893,12 +898,12 @@
           },
         }).mount();
 
-        var splide = new Splide(".splide2", {
-          type: "fade",
-          rewind: true,
-          drag: "free",
-          autoplay: true,
-        });
+          var splide = new Splide(".splide2", {
+            type: "fade",
+            rewind: true,
+            drag: "free",
+            autoplay: true,
+          });
 
         splide.mount();
 
