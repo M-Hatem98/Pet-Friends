@@ -1237,10 +1237,19 @@ hr {
 
 /* ********************************************************************* */
 .banner {
-  background-color: #FBE9DE;
+  background-color: #FAC79F;
+}
+.banner-2 {
+  background-color: #252354;
 }
 
 .banner h1{
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+}
+.banner-2 h1{
+  color: #FAC79F;
   text-align: center;
   font-size: 80px;
   font-weight: bolder;
@@ -4981,7 +4990,7 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
-/*************************************Start Location*****************************************/
+/*************************************Start Services*****************************************/
 .subservicevetforcat .banner,
 .subservicevetfordog .banner,
 .subservicecatvaccinations .banner,
@@ -5123,15 +5132,21 @@ del {
   -o-transform: translate(-50px , 0px);
 }
 
+.about-content .content p ,
 .serv-content .content p {
   font-weight: bold;
   font-size: 20px;
 }
+.about-content .content p {
+  font-weight: 300;
+}
 
+.about-content .content ul ,
 .serv-content .content ul {
   padding-left: 30px;
 }
 
+.about-content .content ul li,
 .serv-content .content .nums li,
 .serv-content .content ul li {
   list-style: disc !important;
@@ -5174,4 +5189,9 @@ del {
 
 .services-slider .card-box .box h3 {
   margin-bottom: 50px;
+}
+
+/*************************************Start About Us*****************************************/
+.about-content img {
+  max-width: 100%;
 }
