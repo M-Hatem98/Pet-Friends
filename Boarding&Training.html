@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>petfriendsgroup</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo - Copy.png"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+      integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@splidejs/splide@3.0.9/dist/css/splide.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="preloader-circle"></div>
+          <div class="preloader-img pere-text">
+            <img src="assets/img/logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+      <!--? Header Start -->
+      <div class="header-area">
+        <nav class="navbar navbar-expand-lg navbar-light px-1">
+          <a class="navbar-brand d-none d-lg-block p-0" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" />
+          </a>
+          <a class="navbar-brand d-lg-none p-0" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" />
+          </a>
+          <ul class="pt-1 row d-lg-none mobile-btn text-center d-sm-flex">
+            <div class="row">
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="location.html"
+                  class="nav-link header-btn"
+                  style="background-color: #b67b6d"
+                  >Branches</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="pettaxi.html"
+                  class="nav-link header-btn"
+                  style="background-color: #75b09a"
+                  >Pet Taxi</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="shop-soon.html"
+                  class="nav-link header-btn"
+                  style="background-color: #a71d17"
+                  >Pet Shop</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="Boarding&Training.html"
+                  class="nav-link header-btn"
+                  style="background-color: #282552"
+                  >Boarding & Training</a
+                >
+              </li>
+            </div>
+          </ul>
+          <button
+            class="navbar-toggler btn-sm p-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div
+              class="nav-holder ml-5 w-100 d-flex justify-content-between align-items-center"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Services</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item nav-link" href="services.html"
+                      >All Services</a
+                    >
+                    <a class="dropdown-item nav-link" href="emergency-pet.html"
+                      >Emergency</a
+                    >
+                    <a class="dropdown-item nav-link" href="petdentalcare.html"
+                      >Dental</a
+                    >
+                    <a class="dropdown-item nav-link" href="grooming.html"
+                      >Grooming</a
+                    >
+                    <a class="dropdown-item nav-link" href="spay-newter.html"
+                      >Spay & Neuter</a
+                    >
+                    <a class="dropdown-item nav-link" href="ophthalmology.html"
+                      >Ophthalmology</a
+                    >
+                    <a
+                      class="dropdown-item nav-link"
+                      href="pet-vaccinations.html"
+                      >Vaccinations</a
+                    >
+                    <a class="dropdown-item nav-link" href="price.html"
+                      >Price</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown2"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >About US</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdown2MenuLink"
+                  >
+                    <a class="dropdown-item nav-link" href="about.html"
+                      >About</a
+                    >
+                    <a class="dropdown-item nav-link" href="gallery.html"
+                      >Gallery</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="packages.html">Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html">Our Team</a>
+                </li>
+              </ul>
+              <ul class="d-none d-lg-flex">
+                <li class="nav-item p-0">
+                  <a
+                    href="location.html"
+                    class="nav-link header-btn"
+                    style="background-color: #b67b6d"
+                    >Branches</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="pettaxi.html"
+                    class="nav-link header-btn"
+                    style="background-color: #75b09a"
+                    >Pet Taxi</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="shop-soon.html"
+                    class="nav-link header-btn"
+                    style="background-color: #a71d17"
+                    >Pet Shop</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="Boarding&Training.html"
+                    class="nav-link header-btn"
+                    style="background-color: #282552"
+                    >Boarding & Training</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Header End -->
+    </header>
+    <main>
+        <div class="header mt-3">
+            <div class="container p-0">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="services.html">Services</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Boarding & Training</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="subserviceboarding">
+                <div class="banner mb-5">
+                    <img src="assets/img/services/17.svg" alt="">
+                </div>
+            </div>
+          </div>
+          <div class="serv-content p-3">
+          <div class="pagetitle my-5">
+            <div class="container-fluid">
+                <h1>Boarding & Training</h1>
+            </div>
+          </div>
+          <div class="container">
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Dog Boarding</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Cat Boarding</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="content pt-5">
+                      <p>We would like to apologize in advance if your dog totally ignores you upon check-out and heads back to our playing area wagging his tail...  Yes, we have seen this a lot and we can't help it!!! :)</p>
+                      <p>Our vet clinic is next door and our vets are present during working hours to ensure that all pets are healthy and to provide any urgent assistance if needed. They are available on call after duty hours as well.</p>
+                      <p>Pick up & drop off, grooming and training services and many more extra services are available as well with instant online booking and payment</p>
+                      <h3>Facilities:</h3>
+                      <p>We have 2 different air conditioned, CCTV monitored boarding facilities for dog boarding on the same street: New branch: For small doggies only (up to 15kg) Main branch (training and boarding centre) for all sizes of dogs - large dogs need to meet more requirements)</p>
+                        <h3>Rates:</h3>
+                        <p>You can pick and choose what matches your budget.</p>
+                        <ul>
+                            <li>Low season: Starting from AED72 up to AED200 per night. </li>
+                            <li>High season: Starting from AED99 up to AED250 per night </li>
+                        </ul>
+                        <h3>Play time:</h3>
+                        <p>At both facilities, your dog will enjoy air conditioned, CCTV monitored, supervised play areas</p>
+                        <ul>
+                            <li>New branch: 7:30am - 6:30pm</li>
+                            <li>Main branch: 8:30am - 5:30 pm  </li>
+                        </ul>
+                        <h3>Capacity:</h3>
+                        <p>New branch: Very low capacity so your pet gets proper care:</p>
+                        <ul>
+                            <li>18 rooms for dogs</li>
+                            <li>2 suites for dogs</li>
+                            <li>5 rooms for cats</li>
+                            <li>2 suites for cats -</li>
+                            <li>Main branch: 15 rooms (for small dogs) </li>
+                            <li>10 rooms suitable for small or medium dogs</li>
+                            <li>3 suits: suitable for all sizes of dogs.</li>
+                        </ul>
+                        <h3>Important notes:</h3>
+                        <ul>
+                            <li>We use F10 products for cleaning and disinfecting.</li>
+                            <li>Food should be provided by the owner.</li>
+                            <li>Chewing bones are not allowed in the rooms or any hazardous item provided by owners.</li>
+                            <li>We give bottled drinking water to our guests.</li>
+                            <li>Standard dog rooms are provided with: Bed, Food bowls, toys</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="content pt-5">
+                        <p>Cat boarding is stressful.. NOT anymore! Our cat boarding service is available now at our new branch only because it's built to be a cat friendly pet hotel considering all cat welfare aspects.</p>
+                        <p>It's not only fun for cats here but also for human, promise! So do visit us any time and meet our cats Honey and B, the cattery supervisors :)</p>
+                        <h3>Facility:</h3>
+                        <p>At Pet Friends Group, the First "Cat Friendly" pet hotel in UAE, visit our Website to read more about cat friendly facilities, your cat will enjoy staying in the lowest capacity cattery in UAE.</p>
+                        <p>We provide 5 rooms for cat boarding in the shared cattery and 2 huge cat suites (cage free, 9 meter square, home alike room with owner’s camera access) which means:</p>
+                        <ul>
+                            <li> No stress (for you and your cat) of having your cat with many cats</li>
+                            <li>Your cat will have more attention with personal touch</li>
+                            <li>More time for your cat roaming around an air conditioned, CCTV monitored cattery freely</li>
+                            <li>Our vet clinic is next door with vets and nurses on board in case of emergency.</li>
+                        </ul>
+                        <h3>Rates:</h3>
+                        <p>You can pick and choose from the different available options</p>
+                        <ul>
+                            <li>Low season: from AED72 up to AED200 per night</li>
+                            <li>High season: From AED126 up to AED250 per night</li>
+                        </ul>
+                        <h3>Capacity:</h3>
+                        <ul>
+                            <li>4 Single rooms</li>
+                            <li>1 Double room</li>
+                            <li>2 Cage free huge suite</li>
+                        </ul>
+                        <p>Executive luxury suite: Cats are bosses and bosses need offices, right? Did we mention before that if we are full we have our manager office (20 meter square) as a back-up for one cat to enjoy his time with a crazy cat lady who happened to be a vet?</p>
+                        <h3>Important note:</h3>
+                        <ul>
+                            <li>Cats of different families are not allowed in the play area together at the same time as cats need long time to be introduced to each other properly.</li>
+                            <li>Standard rooms will be provided with: litter tray, food bowls, bed/blanket, scratching post and toy.</li>
+                            <li>Play area has cat trees, toys, water fountain, window lounges in a home a like environment.</li>
+                            <li>Pick-up and drop off, grooming, and many extra service available. Need more info?? Give us a call and let's chat!</li>
+                        </ul>
+
+
+
+
+                      </div>
+            </div>
+              </div>
+          </div>
+          </div>
+          <section class="bookbanner py-3">
+            <div class="container">
+              <div class="holder p-3 text-center">
+                <img src="assets/img/blog/dog-cat.jpg" alt="" />
+                <h1 class="thin my-5">THE ONLY MULTI-<br />SPECIALTY 24 HOUR</h1>
+                <h1 class="bold pb-5">HOSPITAL IN THE UAE!</h1>
+                <button type="submit" class="btn mt-5">BOOK NOW</button>
+              </div>
+            </div>
+          </section>
+          <section class="services-slider my-5">
+            <div class="section-title py-5 text-center">
+              <h2>OTHER SERVICES</h2>
+            </div>
+            <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/2.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3>Text</h3>
+                          <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      
+                        <div class="card-box">
+                          <div class="img-box">
+                            <img src="assets/img/services/3.svg" alt="">
+                          </div>
+                          <div class="box">
+                            <h3>Text</h3>
+                            <p class="text">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                            </p>
+                          </div>
+                        </div>
+                    
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/4.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3>Text</h3>
+                          <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/5.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3>Text</h3>
+                          <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/6.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3>Text</h3>
+                          <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/7.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3>Text</h3>
+                          <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/8.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3>Text</h3>
+                          <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/9.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3>Text</h3>
+                          <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/10.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3>Text</h3>
+                          <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/11.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3>Text</h3>
+                          <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/12.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3>Text</h3>
+                          <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/13.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3>Text</h3>
+                          <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum optio eum quo, voluptatem quibusdam nemo at, nihil harum accusantium hic, tempore aperiam quod commodi. Eos vero veritatis tenetur libero deserunt.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Add more slides as needed -->
+                  </ul>
+                </div>
+              </div>
+              
+          </section>
+    </main>
+<footer>
+    <!-- Footer Start-->
+    <div class="footer-area footer-padding">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+            <div class="single-footer-caption mb-50">
+              <div class="single-footer-caption mb-30">
+                <!-- logo -->
+                <div class="footer-logo text-center mb-3">
+                  <a href="index.html"
+                    ><img
+                      src="assets/img/logo.png"
+                      style="width: 100px"
+                      alt=""
+                  /></a>
+                </div>
+                <div class="footer-tittle">
+                  <div class="footer-pera">
+                    <p>
+                      Welcome to the largest chain of veterinary clinics in
+                      the United Arab Emirates
+                    </p>
+                  </div>
+                </div>
+                <!-- social -->
+                <div class="footer-social">
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-twitter-square"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+            <div class="single-footer-caption mb-50">
+              <div class="footer-tittle">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="packages.html">Packages</a></li>
+                  <li><a href="team.html"> Our Team</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+            <div class="single-footer-caption mb-50">
+              <div class="footer-tittle">
+                <h4>Services</h4>
+                <ul>
+                  <li><a href="emergency-pet.html">Emergency</a></li>
+                  <li><a href="petdentalcare.html">Dental</a></li>
+                  <li><a href="grooming.html">Grooming</a></li>
+                  <li><a href="spay-newter.html">Spay & neuter</a></li>
+                  <li><a href="ophthalmology.html">Ophthalmology</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+            <div class="single-footer-caption mb-50">
+              <div class="footer-tittle">
+                <h4>Get in Touch</h4>
+                <ul>
+                  <li>
+                    <a href="tel:+971527394636"
+                      ><i class="fa-solid fa-mobile-screen-button"></i>
+                      +971527394636</a
+                    >
+                  </li>
+                  <li>
+                    <a href="mailto:pfrindsvet@gmail.com"
+                      ><i class="fa-solid fa-paper-plane"></i>
+                      pfrindsvet@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa-solid fa-location-dot"></i> Sobha Daffodil
+                      - Circle - Jumeirah Village - Dubai - United Arab
+                      Emirates</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-area">
+      <div class="container">
+        <div class="footer-border">
+          <div class="row d-flex align-items-center">
+            <div class="col-xl-12">
+              <div class="footer-copy-right text-center">
+                <p>
+                  Copyright &copy;
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  All rights reserved |
+                  <a href="index.html" target="_blank">Pets Friends</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End-->
+  </footer>
+  <!-- Scroll Up -->
+  <div id="back-top">
+    <a title="Go to Top" href="#"> <i class="fa-solid fa-paw"></i></a>
+  </div>
+
+  <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="https://unpkg.com/@splidejs/splide@3.0.9/dist/js/splide.min.js"></script>
+  <script>
+        
+    document.addEventListener('DOMContentLoaded', function () {
+new Splide('.splide', {
+type: "loop",
+      drag: "free",
+      autoplay: true,
+      autoScroll: {
+        speed: 1,
+      },
+perPage: 4, // Number of cards per slide
+breakpoints: {
+  768: {
+    perPage: 3, // Adjust for smaller screens
+  },
+  576: {
+    perPage: 1, // Adjust for mobile screens
+  }
+}
+}).mount();
+});
+
+
+  </script>
+</body>
+</html>

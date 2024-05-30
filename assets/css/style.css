@@ -5048,6 +5048,7 @@ del {
   margin-bottom: 10px;
 }
 /*************************************Start Services*****************************************/
+.subserviceboarding .banner,
 .subservicevetforcat .banner,
 .subservicevetfordog .banner,
 .subservicecatvaccinations .banner,
@@ -5152,7 +5153,11 @@ del {
 .subservicevetforcat .banner {
   background-image: url(../img/service/vetsforcats.jpg);
 }
+.subserviceboarding .banner {
+  background-image: url(../img/service/boarding.jpg);
+}
 
+.subserviceboarding img ,
 .subservicevetforcat img ,
 .subservicevetfordog img ,
 .subservicecatvaccinations img ,
@@ -5827,4 +5832,24 @@ background-color: #FBE9DE;
 
 .petclinic #image-slider img {
   width: 100%;
+}
+
+.nav-tabs {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.nav-tabs .nav-item {
+  width: 50%;
+}
+
+.nav-tabs .nav-item button {
+  width: 100%;
+  background-color: #112957;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #112957;
+  background-color: #FAC79F;
+  border-color: #fac79f;
 }
