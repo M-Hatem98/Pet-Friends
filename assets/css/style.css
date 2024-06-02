@@ -1667,6 +1667,7 @@ hr {
 .get-in-touch .social a {
   font-size: 35px;
   color: #112957;
+  font-weight: bolder;
   background-color: #fac79f;
   display: inline-flex;
   justify-content: center;
@@ -5081,80 +5082,134 @@ del {
   padding: 0;
   position: relative;
 }
+@media (max-width : 767px) {
+  .subserviceboarding .banner,
+.subservicevetforcat .banner,
+.subservicevetfordog .banner,
+.subservicecatvaccinations .banner,
+.subservicedogvaccinations .banner,
+.subservicecatspay .banner,
+.subservicedogspaying .banner,
+.subservicecardiology .banner,
+.subserviceneurology .banner,
+.subservicepetwelfare .banner,
+.subservicedermatology .banner,
+.subservicemobilegrooming .banner,
+.subservicepettaxi .banner,
+.subservicefooddelivery .banner,
+.subserviceholisticmedicine .banner,
+.subservicegrooming .banner,
+.subservicephysiotherapy .banner,
+.subservicepetdentalcare .banner,
+.subservicesoft .banner,
+.subserviceophthalmology .banner,
+.subservicespay .banner,
+.subserviceemergency .banner,
+.subservicevaccinations .banner,
+.subservicewellness .banner,
+.subservice .banner {
+  height: 300px;
+}
+}
 .subservice .banner {
   background-image: url(../img/service/relocation.jpg);
+  background-size : cover;
 }
 .subservicewellness .banner {
   background-image: url(../img/service/Wellness.jpg);
+  background-size : cover;
 }
 .subservicevaccinations .banner {
   background-image: url(../img/service/vaccinations.jpg);
+  background-size : cover;
 }
 .subserviceemergency .banner {
   background-image: url(../img/service/EMERGENCY.jpg);
+  background-size : cover;
 }
 .subservicespay .banner {
   background-image: url(../img/service/SPAY.jpg);
+  background-size : cover;
 }
 .subserviceophthalmology .banner {
   background-image: url(../img/service/OPHTHALMOLOGY.webp);
+  background-size : cover;
 }
 .subservicesoft .banner {
   background-image: url(../img/service/soft.jpg);
+  background-size : cover;
 }
 .subservicepetdentalcare .banner {
   background-image: url(../img/service/dental.jpg);
+  background-size : cover;
 }
 .subservicephysiotherapy .banner {
   background-image: url(../img/service/physio3-copy.jpg);
+  background-size : cover;
 }
 .subservicegrooming .banner {
   background-image: url(../img/service/grooming.jpg);
+  background-size : cover;
 }
-.subservicegrooming .banner {
-  background-image: url(../img/service/acup.jpg);
+.subserviceholisticmedicine .banner {
+  background-image: url(../img/service/holistic.jpg);
+  background-size : cover;
 }
 .subservicefooddelivery .banner {
   background-image: url(../img/service/fooddelivery.png);
+  background-size : cover;
 }
 .subservicepettaxi .banner {
   background-image: url(../img/service/taxi.jpg);
+  background-size : cover;
 }
 .subservicemobilegrooming .banner {
   background-image: url(../img/service/taxi.jpg);
+  background-size : cover;
 }
 .subservicedermatology .banner {
   background-image: url(../img/service/dermatology.jpg);
+  background-size : cover;
 }
 .subservicepetwelfare .banner {
   background-image: url(../img/service/wellfare.jpg);
+  background-size : cover;
 }
 .subserviceneurology .banner {
   background-image: url(../img/service/neurology12.jpg);
+  background-size : cover;
 }
 .subservicecardiology .banner {
   background-image: url(../img/service/cardio.jpg);
+  background-size : cover;
 }
 .subservicedogspaying .banner {
   background-image: url(../img/service/spayingdogs.jpg);
+  background-size : cover;
 }
 .subservicecatspay .banner {
   background-image: url(../img/service/spayincats.jpg);
+  background-size : cover;
 }
 .subservicedogvaccinations .banner {
   background-image: url(../img/service/vaccinationsfordogs.jpg);
+  background-size : cover;
 }
 .subservicecatvaccinations .banner {
   background-image: url(../img/service/catsvaccinations.jpg);
+  background-size : cover;
 }
 .subservicevetfordog .banner {
   background-image: url(../img/service/vetsfordogs.jpg);
+  background-size : cover;
 }
 .subservicevetforcat .banner {
   background-image: url(../img/service/vetsforcats.jpg);
+  background-size : cover;
 }
 .subserviceboarding .banner {
   background-image: url(../img/service/boarding.jpg);
+  background-size : cover;
 }
 
 .subserviceboarding img ,
@@ -5250,9 +5305,27 @@ del {
 }
 
 .services-slider .card-box .box h3 {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  min-height: 72.8px;
 }
 
+.services-slider .card-box .box h3 a:hover {
+  color: #112957;
+  text-decoration: underline;
+} 
+.services-slider .card-box .box p {
+  display: -webkit-box; 
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 4; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+@media (max-width : 991px) {
+  .services-slider .card-box .box {
+    padding: 25px;
+  }
+}
 /*************************************Start About Us*****************************************/
 .about-content img {
   max-width: 100%;
