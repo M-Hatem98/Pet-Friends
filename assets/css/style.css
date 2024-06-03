@@ -1253,11 +1253,11 @@ hr {
     width: 100%;
   }
   .slide-text h2 {
-    font-size: 30px;
+    font-size: 28px;
     width: 100%;
   }
   .slide-text span {
-    font-size: 33px;
+    font-size: 30px;
   }
   .splide__pagination {
     bottom: 0;
@@ -1266,7 +1266,8 @@ hr {
 
 @media screen and (max-width: 576px) {
   .slide-content {
-    top: 40%;
+    top: 47%;
+    height: 100%;
     width: 100%;
   }
   .splide2 {
@@ -1274,6 +1275,7 @@ hr {
   }
   .slide-text h2 {
     font-size: 25px;
+    width: 100%;
   }
   .slide-text span {
     font-size: 28px;
@@ -1412,10 +1414,10 @@ hr {
 }
 
 .bookbanner .holder img {
-  width: 150px;
+  width: 100px;
   height: auto;
   position: absolute;
-  top: -45px;
+  top: -60px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
