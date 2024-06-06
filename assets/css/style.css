@@ -2317,12 +2317,15 @@ hr {
 }
 
 footer {
-  background-color: #252354;
-
+  /* background-color: #252354; */
+  /* background-color: #FCF7EE; */
+  /* background-color: #FBE9DE; */
+  background-color: #FAC79F;
 }
 
 .footer-area .footer-pera p {
-  color: #FAC79F !important;
+  /* color: #FAC79F !important; */
+  color: #112957 !important;
   padding-right: 52px;
   font-size: 16px;
   margin-bottom: 50px;
@@ -2338,7 +2341,8 @@ footer {
   padding: 0;
 }
 .footer-area .footer-tittle h4 {
-  color: #FAC79F !important;
+  /* color: #FAC79F !important; */
+  color: #112957 !important;
   font-size: 20px;
   margin-bottom: 29px;
   font-weight: 700;
@@ -2347,7 +2351,8 @@ footer {
   margin-bottom: 9px;
 }
 .footer-area .footer-tittle ul li a {
-  color: #FAC79F !important;
+  /* color: #FAC79F !important; */
+  color: #112957 !important;
   font-weight: bolder;
 }
 /* .footer-area .footer-tittle ul li a:hover {
@@ -2381,11 +2386,13 @@ footer {
   color: #112957;
 }
 .footer-bottom-area .footer-border {
-  border-top: 1px solid #FAC79F;
+  /* border-top: 1px solid #FAC79F; */
+  border-top: 1px solid #112957;
   padding: 33px 0px 20px;
 }
 .footer-bottom-area .footer-copy-right p {
-  color: #FAC79F;
+  /* color: #FAC79F; */
+  color: #112957;
   font-weight: 300;
   font-size: 18px;
   line-height: 2;
@@ -2395,11 +2402,13 @@ footer {
   color: #112957;
 }
 .footer-bottom-area .footer-copy-right p a {
-  color: #FAC79F;
+  /* color: #FAC79F; */
+  color: #112957;
   font-weight: 900;
 }
 .footer-social a {
-  color: #fac79f;
+  /* color: #fac79f; */
+  color: #112957;
   font-size: 36px;
   margin-right: 15px;
 }
